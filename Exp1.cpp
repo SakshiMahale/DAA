@@ -31,7 +31,6 @@ float calculateSPI()
     int numSubjects;
     cout << "Enter the number of subjects: ";
     cin >> numSubjects;
-
     int totalCredits = 0, totalPoints = 0;
 
     for (int i = 0; i < numSubjects; i++)
